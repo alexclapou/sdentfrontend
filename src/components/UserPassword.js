@@ -8,7 +8,7 @@ import * as Yup from 'yup'
 import axiosInstance from '../utils/axios-instance'
 import { toast, ToastContainer } from 'react-toastify'
 
-const url = 'http://localhost:3000/api/users/change_password'
+const url = 'https://api-sdent.herokuapp.com/api/users/change_password'
 const UserPassword = () => {
   const [oldPassword, setOldPassword] = useState('')
   const [newPassword, setNewPassword] = useState('')

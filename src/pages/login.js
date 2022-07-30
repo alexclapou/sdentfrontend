@@ -8,7 +8,7 @@ import axios from 'axios'
 import { Link, useNavigate } from 'react-router-dom'
 import jwt_decode from 'jwt-decode'
 
-const url = 'http://localhost:3000/auth/login'
+const url = 'https://api-sdent.herokuapp.com/auth/login'
 
 export default function Login({ setUser }) {
   const navigate = useNavigate()

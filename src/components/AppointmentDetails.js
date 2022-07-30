@@ -5,7 +5,7 @@ import { Redirect } from 'react-router-dom'
 import getBadgeStyle from '../utils/getBadgeStyle'
 import Profile from '../pages/profile'
 
-const url = `http://localhost:3000/api/appointments`
+const url = `https://api-sdent.herokuapp.com/api/appointments`
 const AppointmentDetails = ({ userId, userRole }) => {
   const navigate = useNavigate()
   const { id } = useParams()

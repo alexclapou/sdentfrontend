@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Table from '../components/Table'
 import axiosInstance from '../utils/axios-instance'
-const url = 'http://localhost:3000/api/users'
+const url = 'https://api-sdent.herokuapp.com/api/users'
 
 
 const TABLE_HEADINGS = ['Full name', 'Email', 'Role', 'Joined at', 'Details']

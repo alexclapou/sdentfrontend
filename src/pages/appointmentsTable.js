@@ -3,8 +3,8 @@ import { toast, ToastContainer } from 'react-toastify'
 import Table from '../components/Table'
 import axiosInstance from '../utils/axios-instance'
 
-const url = 'http://localhost:3000/api/appointments'
-const confirm_url = 'http://localhost:3000/api/appointments/confirm_appointment'
+const url = 'https://api-sdent.herokuapp.com/api/appointments'
+const confirm_url = 'https://api-sdent.herokuapp.com/api/appointments/confirm_appointment'
 
 const TABLE_HEADINGS = [
   'Date',

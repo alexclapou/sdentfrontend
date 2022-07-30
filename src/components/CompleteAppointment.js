@@ -5,9 +5,9 @@ import { useNavigate, useParams } from 'react-router-dom'
 import axiosInstance from '../utils/axios-instance'
 import { toast, ToastContainer } from 'react-toastify'
 
-const complete_url = `http://localhost:3000/api/appointments/complete_appointment`
-const url = `http://localhost:3000/api/appointments`
-const equipment_url = 'http://localhost:3000/api/cabinets'
+const complete_url = `https://api-sdent.herokuapp.com/api/appointments/complete_appointment`
+const url = `https://api-sdent.herokuapp.com/api/appointments`
+const equipment_url = 'https://api-sdent.herokuapp.com/api/cabinets'
 const CompleteAppointment = () => {
   const navigate = useNavigate()
   const { id } = useParams()

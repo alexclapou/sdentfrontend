@@ -6,7 +6,7 @@ import axios from 'axios'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as Yup from 'yup'
-const url = 'http://localhost:3000/auth/register'
+const url = 'https://api-sdent.herokuapp.com/auth/register'
 
 export default function Register() {
   const validationSchema = Yup.object().shape({

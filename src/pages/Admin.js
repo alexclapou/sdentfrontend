@@ -14,11 +14,11 @@ import computeStatsArray from '../utils/computeStatsArrays'
 import Status from '../components/Status'
 import StatusExtrapolation from '../components/StatusExtrapolation'
 
-const cabinet_url = 'http://localhost:3000/api/cabinets'
-const url = `http://localhost:3000/api/statistics/user_appointments_stats`
-const eqp_url = `http://localhost:3000/api/statistics/equipments_used`
-const all_eqp_url = 'http://localhost:3000/api/statistics/equipments'
-const all = 'http://localhost:3000/api/statistics/all_used_equipments'
+const cabinet_url = 'https://api-sdent.herokuapp.com/api/cabinets'
+const url = `https://api-sdent.herokuapp.com/api/statistics/user_appointments_stats`
+const eqp_url = `https://api-sdent.herokuapp.com/api/statistics/equipments_used`
+const all_eqp_url = 'https://api-sdent.herokuapp.com/api/statistics/equipments'
+const all = 'https://api-sdent.herokuapp.com/api/statistics/all_used_equipments'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 

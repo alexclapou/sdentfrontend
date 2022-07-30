@@ -6,7 +6,7 @@ import Appointments from '../components/Appointments'
 import { useParams } from 'react-router-dom'
 import axiosInstance from '../utils/axios-instance'
 
-const url = 'http://localhost:3000/api/users'
+const url = 'https://api-sdent.herokuapp.com/api/users'
 
 export default function Account() {
   const { id } = useParams()

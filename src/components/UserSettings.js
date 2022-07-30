@@ -9,7 +9,7 @@ import axiosInstance from '../utils/axios-instance'
 import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
-const url = 'http://localhost:3000/api/users/change_settings'
+const url = 'https://api-sdent.herokuapp.com/api/users/change_settings'
 
 const UserSettings = () => {
   const [firstName, setFirstName] = useState('')

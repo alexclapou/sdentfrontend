@@ -5,7 +5,7 @@ import axiosInstance from '../utils/axios-instance'
 import { Link } from 'react-router-dom'
 import { GrPrevious } from 'react-icons/gr'
 
-const url = 'http://localhost:3000/api/users/user_appointments'
+const url = 'https://api-sdent.herokuapp.com/api/users/user_appointments'
 
 export default function Appointments(user) {
   const [items, setItems] = useState([])

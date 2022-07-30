@@ -48,7 +48,7 @@ export default function Navbar({ user, setUser }) {
     console.log('X')
     axiosInstance
       .get(
-        `http://localhost:3000/api/users/current_user_name/${user.id}`,
+        `https://api-sdent.herokuapp.com/api/users/current_user_name/${user.id}`,
         {},
         { withCredentials: true }
       )

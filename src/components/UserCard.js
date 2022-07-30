@@ -8,7 +8,7 @@ const UserCard = (user) => {
   const [email, setEmail] = useState('')
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/api/users/current_user_name/${user.id}`, {
+      .get(`https://api-sdent.herokuapp.com/api/users/current_user_name/${user.id}`, {
         withCredentials: true
       })
       .then(function (response) {
@@ -18,7 +18,7 @@ const UserCard = (user) => {
         console.log(error)
       })
     axios
-      .get(`http://localhost:3000/api/users/current_user_email/${user.id}`, {
+      .get(`https://api-sdent.herokuapp.com/api/users/current_user_email/${user.id}`, {
         withCredentials: true
       })
       .then(function (response) {

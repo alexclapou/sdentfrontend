@@ -2,7 +2,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { ExclamationIcon } from '@heroicons/react/outline'
 import React, { Fragment } from 'react'
 import axiosInstance from '../utils/axios-instance'
-const url = 'http://localhost:3000/api/appointments/cancel_appointment'
+const url = 'https://api-sdent.herokuapp.com/api/appointments/cancel_appointment'
 
 function CancelModal({ setOpen, appointmentId, toast }) {
   const handleCancel = () => {

@@ -9,9 +9,9 @@ import TimeSlotList from './TimeSlotList'
 import getNextWorkingDay from '../../utils/getNextWorkingDay'
 import { toast, ToastContainer } from 'react-toastify'
 
-const dentists_url = 'http://localhost:3000/api/users/dentists'
-const dates_url = 'http://localhost:3000/api/appointments/unavailable_dates'
-const request_url = 'http://localhost:3000/api/appointments/request_appointment'
+const dentists_url = 'https://api-sdent.herokuapp.com/api/users/dentists'
+const dates_url = 'https://api-sdent.herokuapp.com/api/appointments/unavailable_dates'
+const request_url = 'https://api-sdent.herokuapp.com/api/appointments/request_appointment'
 
 const Book = () => {
   const [dentists, setDentists] = useState([])

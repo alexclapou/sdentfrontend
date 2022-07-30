@@ -2,7 +2,7 @@ import axios from 'axios'
 import dayjs from 'dayjs'
 import jwt_decode from 'jwt-decode'
 
-const baseURL = 'http://localhost:3000'
+const baseURL = 'https://api-sdent.herokuapp.com'
 
 let token = localStorage.getItem('jwt') ? localStorage.getItem('jwt') : ''
 
