@@ -1,0 +1,17 @@
+.sdp {
+  width: 83.3% !important;
+}
+
+@media (min-width: 740px) {
+  .sdp {
+    width: 60% !important;
+  }
+}
+
+@media (min-width: 1024px) {
+    .sdp {
+      width: 20rem !important;
+      height: 18rem !important;
+    }
+  }
+  
